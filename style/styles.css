@@ -257,6 +257,92 @@ font-size: 48px;
 font-weight: 700;
 margin-bottom: 13px;
 }
+.holiday-sale-text{
+    padding: 0 150px;
+    margin-bottom: 10px;
+}
+.holiday-sale-text>h4{
+    color: #070211;
 
-.
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 28px;
+}
+
+.holiday-sale-text>h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.holiday-sale-text>h2>span{
+    color: #F00;
+}
+
+.holiday-sale-text>p{
+    color: rgba(7, 2, 17, 0.60);
+
+
+font-family: Inter;
+font-size: 20px;
+
+font-weight: 500;
+}
+
+.promo-images{
+    
+    position: relative;
+    
+    height: 700px;
+    padding: 0;
+    
+}
+.rect{
+    width:100%;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+}
+
+.gift-box{
+    position: absolute;
+    left: 50px; 
+    bottom: 20px;
+    z-index: 2;
+    
+    
+}
+.gift-box>img{
+    width:80%
+}
+.person{
+    position: absolute;
+    bottom: 30%;
+    right: 0;
+    border-radius: 16px 16px 0px 0px;
+    z-index: 1;
+    
+    
+}
+
+
+.discount{
+    position: absolute;
+    top: 40%; 
+    left: 67%; 
+    transform: translate(-50%, -50%); 
+    z-index: 4;
+}
+
+
+
+
+
+
+
 
