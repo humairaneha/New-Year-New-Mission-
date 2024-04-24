@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-container{
+    border-radius: 16px;
+    max-width:1320px;
+    margin:50px auto;
+  
+    font-family: Merriweather;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("../images/Banner\ Image.png");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding:180px 0;
+    margin-bottom: 120px;
+   
+}
+
+.banner-title{
+    color: #FFF;
+
+text-align: center;
+font-size: 32px;
+
+font-weight: 400;
+
+}
+
+.banner-heading{
+    color: #FFF;
+
+text-align: center;
+font-size: 72px;
+max-width:630px;
+margin:0 auto;
+font-weight: 900;
+}
+
+main{
+
+
+    max-width: 1320px;
+    text-align: center;
+    margin: 0 auto;
+}
+.sale-promo{
+    font-family: Inter;
+    margin-bottom: 120px;
+}
+.sale-promo>h1{
+    color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+margin-bottom: 50px;
+
+}
+.sale-promo>h4{
+    color: #F00;
+
+    text-align: center;
+   
+    font-size: 24px;
+    
+    font-weight: 500;
+    margin-bottom: 15px;
+   
+
+}
+
+.sale-promo>h3{
+    color: #070211;
+
+text-align: center;
+font-size: 48px;
+
+font-weight: 700;
+margin-bottom: 50px;
+}
+.sale-promo-image{
+    max-width:800px;
+    max-height: 500px;
+}
+
