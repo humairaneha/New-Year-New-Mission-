@@ -453,5 +453,66 @@ font-weight: 600;
   
 }
 
+footer{
+    background: #070211;
+    padding: 120px 140px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+footer>hr{
+    background: rgba(255, 255, 255, 0.15);
+    
+
+}
+
+footer>.links{
+    
+    display: flex;
+    gap:24px ;
+    justify-content: center;
+    padding: 48px 0 ;
+    
+}
+
+footer>.contact-info{
+    display: flex;
+   gap:35%;
+    margin-bottom:50px ;
+}
+
+.address{
+    width: 35%;
+    
+    text-align: left;
+}
+.contacts{
+    text-align: left;
+}
+
+
+footer>.footer-note{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+
+}
+.footer-note>a{
+    text-decoration: none;
+    color: #FFF;
+    
+}
+
+
+
+
 
 
