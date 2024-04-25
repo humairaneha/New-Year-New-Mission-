@@ -143,6 +143,15 @@ margin-left: 38px;
 
 
 }
+.greeting-text>a:hover{
+    
+    
+    font-size: 22px;
+    
+    
+    
+    }
+
 .greeting-img{
     width:30%;
 }
@@ -183,6 +192,11 @@ font-size: 20px;
 
 font-weight: 700;
 margin-bottom: 110px;
+}
+
+.btn:hover{
+    background: crimson;
+    font-size: 22px;
 }
 
 .upcoming-offer{
@@ -361,6 +375,10 @@ font-weight: 500;
     
 }
 
+.grid>img:hover{
+    border:4px solid gray;
+    border-radius: 20px;
+}
 .portfolio-text>h2{
     color: #070211;
 font-family: Merriweather;
@@ -452,6 +470,12 @@ font-size: 20px;
 font-weight: 600;
   
 }
+.subscribe-input>input[type="submit"]:hover {
+   
+    background: crimson;
+    
+  
+}
 
 footer{
     background: #070211;
@@ -508,6 +532,11 @@ font-weight: 500;
 .footer-note>a{
     text-decoration: none;
     color: #FFF;
+    
+}
+.footer-note>a:hover{
+    
+    color: #807a7a;
     
 }
 
